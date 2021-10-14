@@ -87,7 +87,7 @@ URI : */auth*\
 Authentication : *not required*\
 Parameters :
 
-```json
+```javascript
 {
 	"login*": string,
 	"password*": string
@@ -134,7 +134,7 @@ URI : */user/:id*\
 Authentication : *required*\
 Parameters :
 
-```json
+```javascript
 {
 	"username": string([a-zA-Z0-9_-]),
 	"pseudo": string,
@@ -167,8 +167,7 @@ Method : **GET**\
 URI : */users*\
 Authentication : *not required*\
 Parameters :
-
-```json
+```javascript
 {
 	"pseudo": string,
 	"page": int,
@@ -243,7 +242,7 @@ URI : */user/:id/video*\
 Authentication : *required*\
 Parameters :
 
-```json
+```javascript
 {
 	"name": string,
 	"source": file
@@ -281,7 +280,7 @@ URI : */videos*\
 Authentication : *not required*
 
 Parameters :
-```json
+```javascript
 {
 	"name": string,
 	"user": int (user id),
@@ -343,7 +342,7 @@ URI : *user/:id/videos*\
 Authentication : *not required*
 
 Parameters :
-```json
+```javascript
 {
 	"page": int,
 	"perPage": int
@@ -404,7 +403,7 @@ URI : *video/:id*\
 Authentication : *not required*
 
 Parameters :
-```json
+```javascript
 {
 	"format": int (1080, 720, 480...etc),
 	"file": string (name of the encoded file)
@@ -451,7 +450,7 @@ URI : */video/:id*\
 Authentication : *required*\
 Parameters :
 
-```json
+```javascript
 {
 	"name": string,
 	"user": int
@@ -502,7 +501,7 @@ URI : */video/:id/comment*\
 Authentication : *required*\
 Parameters :
 
-```json
+```javascript
 {
 	"body": string
 }
@@ -535,7 +534,7 @@ URI : */video/:id/comments*\
 Authentication : *required*\
 Parameters :
 
-```
+```javascript
 {
 	"page": int,
 	"perPage": int
