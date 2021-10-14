@@ -23,7 +23,7 @@ We have provided a dump of the database *database.sql* (located at the root of t
 
 Now that your database is ready you will have to create a file called *db_config.py* at the root of the project. In this file you will need to type this and enter your database connection informations:
 
-```yaml
+```json
 db_conf = {
     "username":"",
     "password":"",
