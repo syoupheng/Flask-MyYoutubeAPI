@@ -8,8 +8,8 @@ For this project I designed an API for a video platform (like Youtube).Through d
 
 Once you have cloned this project on your machine you will need to create a virtual environnement (venv). A venv allows you to install dependencies only for this project without affecting other projects that might use other versions of the same dependencies. To create a venv and activate it, you will need to cd into the root of the project and type:
 
-`python3 -m venv venv  
-source venv/bin/activate`
+`python3 -m venv venv`\
+`source venv/bin/activate`
 
 You should now see "venv" written in the prompt of your terminal meaning that you have successfully activated your venv. You can now install all the required packages by using:
 
