@@ -53,7 +53,7 @@ URI : */user*\
 Authentication : *not required*\
 Parameters :
 
-```json
+```yaml
 {
 	"username*": string([a-zA-Z0-9_-]),
 	"pseudo": string,
@@ -122,7 +122,6 @@ In order to authenticate for requests that require you ti be authentified you ne
 Method : **DELETE**\
 URI : */user/:id*\
 Authentication : *required*\
-
 Parameters : *no parameters*
 
 Response code : **204**\
@@ -133,7 +132,6 @@ Response data example: `{}`
 Method : **PUT**\
 URI : */user/:id*\
 Authentication : *required*\
-
 Parameters :
 
 ```json
@@ -168,7 +166,6 @@ Response data example:
 Method : **GET**\
 URI : */users*\
 Authentication : *not required*\
-
 Parameters :
 
 ```json
@@ -222,7 +219,6 @@ Response data example:
 Method : **GET**\
 URI : */user/:id*\
 Authentication : *not required but if you provide a token you will be able to visualize your email adress.*\
-
 Parameters : *no parameters*
 
 Response code : **200**\
@@ -453,7 +449,6 @@ Response data example:
 Method : **PUT**\
 URI : */video/:id*\
 Authentication : *required*\
-
 Parameters :
 
 ```json
@@ -505,10 +500,9 @@ Response data example: `{}`
 Method : **POST**\
 URI : */video/:id/comment*\
 Authentication : *required*\
-
 Parameters :
 
-```
+```json
 {
 	"body": string
 }
@@ -539,7 +533,6 @@ Response data example:
 Method : **GET**\
 URI : */video/:id/comments*\
 Authentication : *required*\
-
 Parameters :
 
 ```
