@@ -53,7 +53,7 @@ URI : */user*\
 Authentication : *not required*\
 Parameters :
 
-```yaml
+```javascript
 {
 	"username*": string([a-zA-Z0-9_-]),
 	"pseudo": string,
